@@ -2,10 +2,22 @@
     margin: 0;
     padding: 0;
 }
+.total{
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
 .contenidorgran{
     width: 100%;
     height: 75px;
     text-align: center;
+}
+.contingut{
+    width: 700px;
+    height: 1000px;
+}
+.tasque6{
+    font-size: 2em;
 }
 .dades{
     width: 100%;
@@ -33,3 +45,4 @@ ul > li{
     position: absolute;
     margin-top: 155px;
 }
+
