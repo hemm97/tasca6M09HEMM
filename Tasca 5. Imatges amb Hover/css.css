@@ -1,0 +1,59 @@
+div#contenidor{
+    width: 300px;
+    height: 300px;
+    position: relative;
+}
+div#foto{
+    width: 300px;
+    height: 300px;
+    background-image: url(imatges/planta.jpg);
+}
+div#info{
+    width: 300px;
+    height: 300px;    
+    background-color:darkslategrey;
+    visibility: hidden;
+    opacity: 0;
+}
+div#foto:hover #info{
+    visibility: visible;
+    opacity: 1;
+}
+div#info>#titul{
+    height: 15px;
+    width: 150px;
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 15px;
+    color: floralwhite;
+}
+div#text{
+    height: 120px;
+    text-align:left;
+    position: absolute;
+    margin-top: 60px;
+    margin-left: 15px;
+    margin-right: 15px;
+    color: aliceblue;
+    
+}
+div#boto{
+    float: right;
+    position: absolute;
+    margin-top: 230px;
+    margin-left: 230px;
+    color: beige;
+    border-radius: 50px 50px 10px;
+    background-color: black;
+}
+div#boto:hover{
+    color: black;
+    background-color:aliceblue;
+    cursor:pointer;
+}
+.tornar{
+    text-decoration: none;
+    color:aliceblue;
+    border: 2px solid;
+    background-color:black;
+}

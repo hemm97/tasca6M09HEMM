@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.contenidorgran{
+    width: 100%;
+    height: 75px;
+    text-align: center;
+}
+.dades{
+    width: 100%;
+    height: 250px;
+    position: relative;
+}
+.imatges{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+}
+.nom{
+    position: absolute;
+    width: 200px;
+    height: 150px;
+    margin-left: 170px;
+}
+ul{
+    margin-top: 50px;
+}
+ul > li{
+ margin-top: 10px;
+}
+.text{
+    position: absolute;
+    margin-top: 155px;
+}

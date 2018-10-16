@@ -1,0 +1,99 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/*Media Query*/
+@media(max-width:800px){
+    article{
+        margin: auto;
+        width: 500px;
+        height: 350px;
+    }
+    .menu{
+        margin: auto;
+        width: 500px;
+        height: 350px;
+    }
+}
+/*    ARTICLES: */
+
+
+body{
+    background-image: url(imatges/fons1.jpg);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+
+
+div{
+    width: 800px;
+    height: 100px;
+    margin: auto;
+}
+img{
+    widows: 200px;
+    height: 200px;
+    padding: 15px;
+    background-color: #939393;
+    transition: background-color 0.5s;
+    box-shadow: inset 0px 0px 10px #565656;
+    margin: 15px;
+}
+img:hover{
+    background-color: darkgrey;
+    box-shadow: inset 0px 0px 10px black;
+    cursor: pointer;
+}
+article{
+    margin: auto;
+    background-color: aliceblue;
+    width: 800px;
+    height: 250px;
+    border: 3px solid burlywodd;
+    text-align: justify;
+    border: 4px solid black;
+    position: relative;
+}
+p{
+    padding: 10px;
+}
+img{
+    float: left;
+}
+#foto2{
+    float: right;
+}
+/*<-------------MENU-------------->*/
+.menu *{
+    list-style: none;
+}
+
+.menu li>ul{
+    display: none;   
+}
+
+.menu>li a{
+    display: block;
+    background-color: #333333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+.menu>li{
+    float: left;
+}
+
+.menu>li a:hover{
+    background-color: black;
+}
+
+
+.menu li:hover>ul{
+    display: block;
+    position: relative;
+}
+li{
+    min-width: 100px;
+    min-height: 50px;
+}

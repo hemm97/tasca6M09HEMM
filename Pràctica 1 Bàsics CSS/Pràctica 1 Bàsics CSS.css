@@ -1,0 +1,41 @@
+body{
+    background-color: #d3d3d3;
+    text-align: center;
+    margin: 50px;
+    border-radius: 10px;
+     border-style: dashed;
+}
+.par{
+    font-size: 10px;
+    font-family: sans-serif;
+    color: #fff0f0
+}
+
+#menu{
+   font-weight: bold;
+    color: #f4efb6;
+     font-size: 23px;
+    margin: auto;
+    
+}
+h2{
+    text-decoration: underline;
+     font-size: 20px;
+    color: aliceblue
+}
+
+.capcalera{
+    
+    width: 40%;
+    min-width: 200px;
+    background-color: #1c1b18 ;
+    margin: auto;
+    border-style: dashed;
+    box-shadow: #1c1b18 1px 9px 100px;
+}
+a{
+    border: 2px solid black; 
+    color: aliceblue;
+    background-color: dimgrey;
+    text-decoration: none;
+}

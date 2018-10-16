@@ -1,0 +1,50 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.menu *{
+    list-style: none;
+    margin-top: 3px;
+}
+
+.menu li>ul{
+    display: none;   
+}
+
+.menu>li a{
+    display: block;
+    background-color: #333333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+.menu>li{
+    float: left;
+}
+
+.menu>li a:hover{
+    background-color: black;
+}
+
+
+.menu li:hover>ul{
+    display: block;
+    position: relative;
+}
+li{
+    min-width: 100px;
+    min-height: 50px;
+}
+.menu li>ul>li>ul{
+    position: absolute;
+    left: 107px;
+    top: -49px;
+}
+.tornar > a{
+    text-decoration: none;
+    color:aliceblue;
+    border: 2px solid black;
+    background-color: black
+}
