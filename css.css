@@ -15,7 +15,7 @@
 .contingut{
     width: 700px;
     height: 1000px;
-    margin-left: 250px;
+    margin: 0 auto;
 }
 .tasque6{
     font-size: 2em;
