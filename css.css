@@ -63,34 +63,35 @@ ul > li{
     border-style: double;
     text-align: center;
 }
-a{
+.ta1{
     color: black;
     text-decoration:none;
 }
 .tasques1:hover > a{
-    color: aliceblue;
+    color:aliceblue;
 }
 #pr1{
     position: relative;
 }
-div#foto{
-    background: url(imatges/practica%201basic%20css.png);
-    background-size: 100% 100%;
-    height: 100%;
-    background-color: rgba(62, 62, 62, 0.92);
 
+#t1{
+height: 24px;
+width:160px;
+border-radius: 25px 10px / 10px 25px;
+border-radius: 25px 10px / 10px 25px;
+background-color: aliceblue;
+position: absolute;
+    text-align: center;
+    margin-left: 180px;
+    margin-top: 90px;
+    padding-top: 4px;
 }
-div#info{
-    width: 100%;
-    height: 100%;
-    background-color:#332f2f;
-    visibility: hidden;
-    opacity: 0;
+#t1:hover{
+    background: rgba(255, 255, 255, 0);
+color: #ffffff;
+box-shadow: inset 0 0 0 3px #ffffff;
 }
-div#foto:hover #info{
-    visibility: visible;
-    opacity: 1;
-}
-.butoa1{
-    float: right;
+#tepra1{
+    position: absolute;
+
 }
