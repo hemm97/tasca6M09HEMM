@@ -64,7 +64,8 @@ ul > li{
     text-align: center;
 }
 a{
-    color: aliceblue;
+    color: black;
+    text-decoration:none;
 }
 .tasques1:hover > a{
     color: aliceblue;
@@ -89,4 +90,7 @@ div#info{
 div#foto:hover #info{
     visibility: visible;
     opacity: 1;
+}
+.butoa1{
+    float: right;
 }
