@@ -61,7 +61,32 @@ ul > li{
     width: 100%;
     margin-top: 10px;;
     border-style: double;
+    text-align: center;
+}
+a{
+    color: aliceblue;
 }
 .tasques1:hover > a{
     color: aliceblue;
+}
+#pr1{
+    position: relative;
+}
+div#foto{
+    background: url(imatges/practica%201basic%20css.png);
+    background-size: 100% 100%;
+    height: 100%;
+    background-color: rgba(62, 62, 62, 0.92);
+
+}
+div#info{
+    width: 100%;
+    height: 100%;
+    background-color:#332f2f;
+    visibility: hidden;
+    opacity: 0;
+}
+div#foto:hover #info{
+    visibility: visible;
+    opacity: 1;
 }
