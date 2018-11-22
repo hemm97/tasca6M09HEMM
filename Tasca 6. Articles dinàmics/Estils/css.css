@@ -11,7 +11,15 @@
     overflow: hidden;
     float: left;
 }
-
+.volver{
+    position: absolute;
+    padding: 9px;
+    background-color: #747474;
+    margin-top: 15px;
+    margin-left: 450px;
+    color: #ffffff;
+    border: 2px solid #0a0a0a;
+}
 .cartell {
     width: 350px;
     height: 300px;
