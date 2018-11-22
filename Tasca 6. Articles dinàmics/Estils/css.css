@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.contenidor {
+    margin: 15px;
+    width: 350px;
+    height: 300px;
+    background-color: #868686;
+    overflow: hidden;
+    float: left;
+}
+
+.cartell {
+    width: 350px;
+    height: 300px;
+    background-color:#d4d4d4;
+    overflow: hidden;
+}
+
+.info {
+    width: 350px;
+    height: 0px;
+    background-color: #8d8d8d;
+    overflow: hidden;
+}
+
+.imag {
+    display: block;
+    margin: 80px auto;
+    width: 180px;
+    height: 180px;
+
+}
+
+p.titul {
+    margin: 5px;
+    font-size: 1.1em;
+    color: #ffffff;
+    text-align: center;
+    font-size: 1.3em;
+}
+
+p.mest {
+    color: white;
+    width: 200px;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
+.linc {
+    float: right;
+    margin-top: -30px;
+    margin-right: 10px;
+    padding: 10px 30px;
+    background-color: #000000;
+    font-size: .8em;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 10px;
+    
+    
+}
+
+.contenidor:hover .cartell {
+    height: 210px;
+}
+
+.contenidor:hover .info {
+    height: 90px;
+    transition: height 1.5s;
+}
+
+.contenidor:hover .imag {
+    margin: 30px auto;
+    transition:  margin 2.5s;
+}
+
+.contenidor:hover .linc{
+    cursor: pointer;
+}
+
+
+
+.contenidorgran {
+    width: 760px;
+    height: 1000px;
+    background-color: dimgrey;
+    position: absolute;
+    margin-top: 50px;
+}
+
+.titulpagina {
+    width: 760px;
+    height: 100px;
+    text-align: center;
+    position: relative;
+    background-color: #afafaf;
+    
+}
+
+.iinfotitul {
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 250px;
+    font-family: fantasy;
+    color: #ffffff;
+    font-size: 50px;
+}
+
+.centrar {
+    width: 780px;
+    height: 1250px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.footer {
+    position: absolute;
+    margin-top: 1100px;
+    display: block;
+    text-align: center;
+    width: 100%;
+    background-color: dimgrey;
+    color: aliceblue;
+}
+a:link{
+    text-decoration: none;
+    color: #ffffff;
+}
+.contingut{
+    background-image: url("../Imatges/arton3871.jpg");
+}
