@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tasca 7.1</title>
+    <link rel="stylesheet" href="Estils/css.css">
+</head>
+<body>
+  <div class="titulpgweb">
+      <img src="Imatges/titulpgweb.png" alt="">
+            <INPUT TYPE=text id="bs" maxlength="30" name="buscador" value="" /> 
+            <input type="button" id="buscar"  value="Buscar" size="30">
+      <p class="cochegusta">Quin COTXE t'agrada més!</p>
+      <a href="../index.html" class="volverpgprincipal">Tornar</a>
+  </div>
+   <div class="contenidor">
+    <header>
+        <input type="checkbox" id="btn-menu">
+        <label for="btn-menu">
+            <img src="Imatges/VisualEditor_-_Icon_-_Menu.svg.png" alt="">
+        </label>
+    
+        <nav class="menu">
+            <ul>
+                <li><a href="index.html">Inici</a></li>
+                <li><a href="#">Treball</a></li>
+                <li><a href="#">Serveis</a></li>
+                <li><a href="#">Contacte</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="mostra">
+        <ul class="galeria">
+		<li><a href="#img1"><img src="Imatges/audia8l.jpg"></a></li>
+		<li><a href="#img2"><img src="Imatges/audirs3.jpeg"></a></li>
+		<li><a href="#img3"><img src="Imatges/high_opel_grandland-x-2017_r9.jpg"></a></li>
+		<li><a href="#img4"><img src="Imatges/seat_arona-fr-2017_r10.jpg"></a></li>
+	</ul>
+    
+	<div class="modal" id="img1">
+		<h3>Audi A8 L</h3>
+		<div class="imagen">
+			<a href="#img4">&#60;</a>
+			<a href="#img2"><img src="Imatges/audia8l.jpg"></a>
+			<a href="#img2">></a>
+		</div>
+		<a class="cerrar" href="">X</a>
+	</div>
+	
+	<div class="modal" id="img2">
+		<h3>SEAT Ateca</h3>
+		<div class="imagen">
+			<a href="#img1">&#60;</a>
+			<a href="#img3"><img src="Imatges/audirs3.jpeg"></a>
+			<a href="#img3">></a>
+		</div>
+		<a class="cerrar" href="">X</a>
+	</div>
+	
+	<div class="modal" id="img3">
+		<h3>Audi Q8</h3>
+		<div class="imagen">
+			<a href="#img2">&#60;</a>
+			<a href="#img4"><img src="Imatges/high_opel_grandland-x-2017_r9.jpg"></a>
+			<a href="#img4">></a>
+		</div>
+		<a class="cerrar" href="">X</a>
+	</div>
+	
+	<div class="modal" id="img4">
+		<h3>SEAT Arona</h3>
+		<div class="imagen">
+			<a href="#img3">&#60;</a>
+			<a href="#img1"><img src="Imatges/seat_arona-fr-2017_r10.jpg"></a>
+			<a href="#img1">></a>
+		</div>
+		<a class="cerrar" href="">X</a>
+	</div>
+    </div>
+       <div class="moviment">
+        <MARQUEE ALIGN=BOTTOM>Fes Click sobre les imatges per visualitzar-les</MARQUEE>
+    </div>
+    <div class="contingut">
+        <div class="coche1">
+           <a href="/cotxes1.html"><img src="Imatges/audia8l.jpg" alt="" id="audia8llink"></a>
+            <p class="audi8l">El model que et permet viure el futur. Un concepte de disseny que confereix una nova dimensió a l'elegància ia la dinàmica en la conducció. Disposa de diversos assistents a la conducció, un nou concepte de comandament, guia d'usuari intuïtiva al més alt nivell i, sobretot, més espai. Configura amb total flexibilitat l'espai de la part del darrere i gaudeix del luxe, la comoditat i la veritable grandesa del nou Audi A8 L.
+            </p>
+             <a href="/cotxes1.html" id="infobuton">Més</a>    
+        </div>
+        <div class="coche2">
+            <img src="Imatges/audirs3.jpeg" alt="">
+            <p class="seatateca">El SEAT Ateca afronta el dia a dia ple de confiança gràcies al inconfusible i dinàmic estil que creen les definides línies del seu disseny exterior. Al seu interior, tot ha estat concebut perquè la rutina sigui una experiència fantàstica. I ara pots anar un pas per davant amb el nou SEAT Ateca FR, que t'ofereix rendiment i un toc esportiu perquè el teu dia a dia superi totes les teves expectatives.</p>
+            <a href="#" id="infobuton2">Més</a>
+        </div>
+        <div class="coche3">
+           <img src="Imatges/high_opel_grandland-x-2017_r9.jpg" alt="">
+            <p class="audiq8">El nou Audi Q8 combina tot el que la marca representa per satisfer les més altes exigències. Compleix totes les expectatives gràcies a un disseny expressiu ia una tecnologia innovadora. El seu aspecte esportiu evoca el model quattro original, però al mateix temps, fa un pas cap al futur mitjançant la seva nova graella Audi Singleframe de disseny octogonal.</p>
+            <a href="#" id="infobuton">Més</a>  
+        </div>
+        <div class="coche4">
+            <img src="Imatges/seat_arona-fr-2017_r10.jpg" alt="">
+            <p class="seataronafr">
+El nou SUV urbà SEAT per fer front al món, sempre a la vostra manera. Sensor de llum i pluja. Funcionament 4DRIVE amb fulls de llum LED. Assistent de frenada 4 anys de manteniment. Assistència davantera. Finançament còmode. Detector de fatiga inici KESSY sense clau.</p>
+       <a href="#" id="infobuton2">Més</a>
+        </div>
+        <div class="xarxasocial1">
+            <img src="Imatges/2018-tesla-model-s_100641506_l.jpg" alt="" id="tesla">
+            <p class="infotesla">Gama de cotxes elèctrics...</p>
+            <img src="Imatges/logo-facebook-black-icon-symbol-17.png" alt="" id="fc">
+        </div>
+        <div class="xarxasocial2">
+            <img src="Imatges/cochesvelocitat.jpeg" alt="" id="velocitat">
+            <p class="chvelt">
+Totes les velocitats màximes i mínimes...</p>
+       <img src="Imatges/instagram.png" alt="" id="instagram">
+        </div>
+        <div class="xarxasocial3">
+            <img src="Imatges/futur.jpeg" alt="" id="futur">
+            <p class="inffutur">El FUTUR està aprop!!!</p>
+            <img src="Imatges/twitter.png" alt="" id="twiter">
+        </div>
+    </div>
+    <div class="footertot">
+       <div class="footer">
+            <p class="ftinfo">carHM.com</p>
+            <p class="nom">Hamza El Mousaoui</p>
+            <p class="correu">mousaoui@correu.com</p>
+            <img src="Imatges/twitter.png" id="twitter" alt="">
+            <img src="Imatges/instagram.png" id="insta"alt="">
+            <img src="Imatges/logo-facebook-black-icon-symbol-17.png" id="fcboak" alt="">
+            
+        </div>
+    </div>
+    </div>
+    
+</body>
+</html>

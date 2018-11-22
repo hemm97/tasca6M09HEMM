@@ -1,0 +1,614 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: sans-serif;
+    background-color: #ffffff;
+}
+/*Menu*/
+header{
+    width: 1200px;
+    margin: 0 auto;
+    background: #5c5c5c;
+}
+
+#btn-menu {
+    display: none;
+}
+
+header label{
+    display: block;
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+    border-right: 2px solid #000000;
+    display: none;
+
+}
+
+header label:hover{
+    cursor: pointer;
+    background: rgb(0, 0, 0);
+    
+}
+img {
+    width: 30px;
+    height: 30px;
+}
+.menu ul{
+    margin: 0;
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.menu li{
+    text-align: center;
+    flex-grow: 1;
+    border-right: 1px solid white;
+}
+.menu li:hover{
+    background: rgb(0, 0, 0);
+}
+.menu li a{
+    display: block;
+    padding: 15px 20px;
+    color: white;
+    text-decoration: none;
+}
+@media (max-width:600px){
+    header label{ 
+    display: block;
+    }
+  .menu {
+    position: absolute;
+    background: #777777;
+    width: 30%;
+    margin-left: -70%;
+    transition: all 0.5s;
+    } 
+    .menu li{
+        border-top: 2px solid #ffffff;
+    }  
+    #btn-menu:checked ~.menu{
+    margin: 0;
+    }
+    .menu ul{
+    flex-direction: column;
+    }
+}
+#menu{
+    padding: 20px;
+}
+
+
+.contenidor {
+    width: 1200px;
+    height: 1865px;
+    background-color: #ffffff;
+    margin: 0 auto;
+    position: relative;
+    border-left: 7px solid #c7c7c7;
+    border-right: 7px solid #c7c7c7;
+}
+.contingut {
+    margin-top: 40px;
+    position: relative;
+}
+.mostra{
+    width: 100%;
+    height: 200px;
+    margin: 0 auto;
+    margin-top: 25px;
+}
+/*Galeria imatges*/
+h1 {
+	color: #ffffff;
+	text-align: center;
+}
+
+/*Estils de la galeria*/
+
+.galeria {
+	width: 90%;
+	margin: auto;
+	list-style: none;
+	padding: 20px;
+	box-sizing: border-box;
+	
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.galeria li {
+	margin: 5px;
+}
+
+.galeria img {
+	width: 200px;
+	height: 150px;
+    border-radius: 140px 4px;
+}
+
+/*Estilos del modal*/
+
+.modal {
+	display: none;
+}
+
+.modal:target {
+	
+	display: block;
+	position: fixed;
+	background: rgba(0,0,0,0.8);
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+    z-index: 1;
+}
+
+.modal h3 {
+	color: #a0a0a0;
+	font-size: 30px;
+	text-align: center;
+	margin: 15px 0;
+}
+
+.imagen {
+	width: 100%;
+	height: 50%;
+	
+	display: flex;
+	justify-content: center;
+	align-items: center;
+    z-index: 1;
+}
+
+.imagen a {
+	color: #a0a0a0;
+	font-size: 40px;
+	text-decoration: none;
+	margin: 0 10px;
+}
+
+.imagen a:nth-child(2) {
+	margin: 0;
+	height: 100%;
+	flex-shrink: 2;
+}
+
+.imagen img {
+	width: 900px;
+	height: 100%;
+	max-width: 100%;
+	border: 7px solid #9b9b9b;
+	box-sizing: border-box;
+}
+
+.cerrar {
+	display: block;
+	background: #a3a3a3;
+	width: 25px;
+	height: 25px;
+	margin: 15px auto;
+	text-align: center;
+	text-decoration: none;
+	font-size: 25px;
+	color: #000000;
+	padding: 10px;
+	border-radius: 50%;
+	line-height: 25px;
+}
+/*Contingut (Cotxes)*/
+
+.coche1 {
+    width: 1000px;
+    height: 200px;
+    border-radius: 20px;
+    margin-left: 8%;
+    margin-top: 10px;
+    position: absolute;
+    border: 5px solid #8d8d8d;
+}
+
+
+#audia8llink{
+    width: 200px;
+    height: 192px;
+    position: absolute;
+    border-radius: 40px;
+    margin-top: 3px;
+    margin-left: 5px;
+}
+
+.audi8l {
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 27%;
+    margin-right: 5%;
+    font-size: 20px;
+}
+
+.coche2 {
+     width: 1000px;
+    height: 210px;
+    border-radius: 20px;
+    margin-top: 245px;
+    margin-left: 8%;
+    position: absolute;
+    border: 5px solid #8d8d8d;
+}
+
+.coche2 > img{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    border-radius: 40px;
+    margin-left: 795px;
+    margin-top: 5px;
+    
+}
+.coche2 > img:hover{
+       border: 5px solid #717171; 
+    cursor: pointer;
+}
+
+.seatateca {
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 2%;
+    margin-right: 25%;
+    font-size: 20px;
+}
+
+.coche3 {
+    width: 1000px;
+    height: 210px;
+    border-radius: 20px;
+    margin-left: 8%;
+    margin-top: 480px;
+    position: absolute;
+    border: 5px solid #8d8d8d;
+}
+
+MARQUEE {
+    position: absolute;
+    margin-top: 20px;
+    font-size: 11px;
+    background-color: #747474;
+    color: #ffffff;
+}
+
+
+
+.audiq8 {
+     position: absolute;
+    margin-top: 30px;
+    margin-left: 27%;
+    margin-right: 5%;
+    font-size: 20px;
+}
+
+.coche3 > img{
+      width: 200px;
+    height: 200px;
+    position: absolute;
+    border-radius: 40px;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.coche3 > img:hover{
+     border: 5px solid #717171; 
+    cursor: pointer;
+}
+.coche4 {
+     width: 1000px;
+    height: 210px;
+    border-radius: 20px;
+    margin-top: 715px;
+    margin-left: 8%;
+    position: absolute;
+    border: 5px solid #8d8d8d;
+}
+
+.coche4 > img{
+     width: 200px;
+    height: 200px;
+    position: absolute;
+    border-radius: 40px;
+    margin-left: 797px;
+    margin-top: 5px;
+}
+
+.seataronafr {
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 2%;
+    margin-right: 25%;
+    font-size: 20px;
+}
+.coche4 > img:hover{
+      border: 5px solid #717171; 
+    cursor: pointer;
+}
+.titulpgweb {
+    position: relative;
+    width: 1200px;
+    height: 155px;
+    margin-top: 20px;
+    margin-left: 5%;
+    margin: 0 auto;
+}
+
+.titulpgweb > img{
+    width: 300px;
+    height: 120px;
+}
+
+.cochegusta {
+    font-family: Frosty;
+    position: absolute;
+}
+
+.xarxasocial1 {
+    position: absolute;
+    width: 300px;
+    height: 330px;
+    margin-left: 50px;
+    margin-top: 980px;
+    border: 10px solid #c6c6c6;
+    background-color: #c7c7c7;
+}
+
+.xarxasocial2 {
+    position: absolute;
+    width: 300px;
+    height: 330px;
+    margin-left: 440px;
+    margin-top: 980px;
+    background-color: #c7c7c7;
+    border: 10px solid #c6c6c6;
+}
+
+.xarxasocial3 {
+    position: absolute;
+    width: 300px;
+    height: 330px;
+    margin-left: 840px;
+    margin-top: 980px;
+     border: 10px solid #c6c6c6;
+    background-color: #c7c7c7;
+}
+
+.xarxasocial1 > #tesla{
+    width: 100%;
+    height: 200px;
+    border: 2px solid #ffffff;
+    
+}
+
+.infotesla {
+    font-size: 26px;
+    text-align: center;
+    color:#000000;
+    font: monospace 150%;
+}
+
+#fc {
+    margin-top: 2px;
+    margin-left: 267px;
+}
+
+.xarxasocial2 > #velocitat{
+    width: 100%;
+    height: 200px;
+    border: 2px solid #ffffff;
+}
+
+.chvelt {
+       font-size: 26px;
+    text-align: center;
+    color:#000000;
+    font: monospace 150%;
+}
+
+#instagram {
+    margin-top: 2px;
+    margin-left: 267px;
+    
+}
+
+#futur {
+    width: 100%;
+    height: 200px;
+    border: 2px solid #ffffff;
+}
+
+.inffutur {
+        font-size: 26px;
+    text-align: center;
+    color:#000000;
+    font: monospace 150%;
+}
+
+#twiter {
+    margin-top: 35px;
+    margin-left: 267px;
+}
+
+.footertot {
+    position: absolute;
+    margin-top: 1400px;
+    border-radius: 10px;
+    width: 100%;
+    height: 150px;
+    background-color: dimgrey;
+}
+
+.ftinfo {
+    position: absolute;
+    color: aliceblue;
+    margin-top: 20px;
+    text-align: center;
+    margin-left: 600px;
+}
+
+.footer {
+    width: 1200px;
+    margin-top: 20px;
+    margin: 0 auto;
+}
+
+.nom {
+    position: absolute;
+    width: 220px;
+    color: aliceblue;
+    margin-top: 40px;
+    text-align: center;
+    margin-left: 530px;
+}
+
+.correu {
+    position: absolute;
+    width: 220px;
+    margin: 0 auto;
+    color: aliceblue;
+    margin-top: 60px;
+    text-align: center;
+    margin-left: 530px;
+}
+
+.xarxasocial1:hover {
+    cursor: pointer;
+}
+
+.xarxasocial3:hover {
+    cursor: pointer;
+}
+
+.footertot:hover {
+    cursor: pointer;
+}
+
+.xarxasocial2:hover {
+    cursor: pointer;
+}
+
+.titulpgweb >img {
+    position: absolute;
+}
+.ie{
+    
+}
+
+
+
+
+#bs {
+    position: absolute;
+    margin-left: 950px;
+    margin-top: 110px;
+    height: 25px;
+}
+
+#buscar {
+    margin-left: 1120px;
+    margin-top: 110px;
+    padding: 5px;
+}
+
+#twitter {
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 560px;
+}
+
+#insta {
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 630px;
+    
+}
+
+
+
+#fcboak {
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 700px;
+}
+
+.sensors {
+    position: absolute;
+    margin-top: 250px;
+    margin-left: 30px;
+    font-size: 40px;
+    font-family: serif;
+}
+
+.videoa8l {
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 100px;
+}
+
+
+#infobuton {
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 930px;
+    text-decoration: none;
+    border: 2px solid #434343;
+    padding: 6px;
+    border-radius: 5px;
+    background-color: #d9d9d9;
+    color: #000000;
+}
+#infobuton:hover{
+    background: black;
+    color: #ffffff;
+    border: 7px;
+}
+
+
+
+
+
+#infobuton2 {
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 30px;
+    text-decoration: none;
+    border: 2px solid #434343;
+    padding: 6px;
+    border-radius: 5px;
+    background-color: #d9d9d9;
+    color: #000000;
+}
+
+#infobuton2:hover {
+    background: black;
+    color: #ffffff;
+    border: 7px;
+}
+
+#audia8llink:hover {
+   border: 5px solid #717171; 
+}
+
+.volverpgprincipal {
+    position: absolute;
+    padding: 8px;
+    background-color: #7f8183;
+    color: aliceblue;
+    text-decoration: none;
+    border: 2px solid #000000;
+    
+
+}
