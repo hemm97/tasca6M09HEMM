@@ -84,6 +84,7 @@ ul{
     border-style: double;
     text-align: center;
     background-color: #8b8b8b;
+    border: 3px solid #ffffff;
 }
 .ta1{
     color: black;
@@ -219,14 +220,14 @@ img {
 }
 
 .uf1 {
-    border: 10px solid  #A4A4A4;
+    border: 10px solid  #5f5f5f;
     margin-top: 50px;
 }
 
 .tituluf1 {
-    border: 5px solid #000000;
+    border: 1px solid #000000;
     text-align: center;
     background-color: darkgray;
-    color: aliceblue;
+    color: #000000;
     font-size: 20px;
 }
