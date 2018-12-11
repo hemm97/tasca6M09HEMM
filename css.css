@@ -6,8 +6,6 @@
     height: 1500px;
     width: 100%;
     position: relative;
-    background-image: url(imatges/a937651587133318eb8e29f28ebfc855.jpg);
-    background-size: 100% 100%;
 }
 .contenidorgran{
     width: 100%;
@@ -80,19 +78,22 @@ ul{
     position: relative;
 }
 .tasques1{
-    height: 125px;
-    width: 100%;
+    height: 75px;
+    width: 675px;;
     margin-top: 10px;;
     border-style: double;
     text-align: center;
+    background-color: #8b8b8b;
 }
 .ta1{
     color: black;
     text-decoration:none;
 }
+/*
 .tasques1:hover > a{
     color:aliceblue;
 }
+*/
 #pr1{
     position: relative;
 }
@@ -105,8 +106,8 @@ border-radius: 25px 10px / 10px 25px;
 background-color: aliceblue;
 position: absolute;
     text-align: center;
-    margin-left: 180px;
-    margin-top: 90px;
+    margin-left: 170px;
+/*    margin-top: 55px;*/
     padding-top: 4px;
 }
 #t1:hover{
@@ -114,8 +115,118 @@ position: absolute;
 color: #ffffff;
 box-shadow: inset 0 0 0 3px #ffffff;
 }
-#tepra1{
-    position: absolute;
-    font-size:16px;
 
+/*********Menu***********/
+header{
+    width: 700px;
+    margin: 0 auto;
+    background: #ffffff;
+}
+
+#btn-menu {
+    display: none;
+}
+
+header label{
+    display: block;
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+    border-right: 2px solid #000000;
+    display: none;
+
+}
+
+header label:hover{
+    cursor: pointer;
+    background: rgb(0, 0, 0);
+
+}
+img {
+    width: 100%;
+    height: 100%;
+}
+.menu ul{
+    margin: 0;
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.menu li{
+    text-align: center;
+    flex-grow: 1;
+    border-right: 1px solid white;
+}
+.menu li>a:hover{
+    color: #afafaf;
+}
+.menu li a{
+    display: block;
+    padding: 15px 20px;
+    color: #000000;
+    text-decoration: none;
+}
+
+.menu{
+    padding: 20px;
+    margin-bottom: 10px;
+    border-top: 2px solid #a5a5a5;
+}
+#trb{
+    width: 150px;
+    border-radius: 160px;
+    background-color: #65a8c1;
+        color: aliceblue;
+
+}
+
+@media (max-width:600px){
+    header label{
+    display: block;
+    }
+  .menu {
+    position: absolute;
+    background: #777777;
+    width: 30%;
+    margin-left: -70%;
+    transition: all 0.5s;
+    }
+    .menu li{
+        border-top: 2px solid #ffffff;
+    }
+    #btn-menu:checked ~.menu{
+    margin: 0;
+    }
+    .menu ul{
+    flex-direction: column;
+    }
+    #trb{
+        background-color: transparent;;
+    }
+}
+
+/***************************************************/
+
+
+
+.prcactic {
+    color:#ffffff;
+    font-family: serif;
+    font-size: 30px;
+
+}
+
+.uf1 {
+    border: 10px solid  #A4A4A4;
+    margin-top: 50px;
+}
+
+.tituluf1 {
+    border: 5px solid #000000;
+    text-align: center;
+    background-color: darkgray;
+    color: aliceblue;
+    font-size: 20px;
 }
